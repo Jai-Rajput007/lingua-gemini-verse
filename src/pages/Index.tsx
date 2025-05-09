@@ -5,7 +5,7 @@ import TranslationResult from "@/components/TranslationResult";
 import TranslationHistory, { HistoryItem } from "@/components/TranslationHistory";
 import { translateText } from "@/utils/translateApi";
 import { toast } from "sonner";
-import { Language } from "lucide-react";
+import { Languages } from "lucide-react";
 import { getLanguageByCode } from "@/utils/languages";
 
 const Index = () => {
@@ -89,7 +89,7 @@ const Index = () => {
       <header className="p-6 flex items-center justify-center">
         <div className="flex items-center space-x-3">
           <div className="bg-accent rounded-full p-2 text-white">
-            <Language className="h-6 w-6" />
+            <Languages className="h-6 w-6" />
           </div>
           <h1 className="text-3xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
             LinguaGemini

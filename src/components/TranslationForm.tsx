@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Textarea } from "@/components/ui/textarea";
 import LanguageSelector from "./LanguageSelector";
-import { ArrowRight, RotateCcw, Translate } from "lucide-react";
+import { ArrowRight, RotateCcw, Languages } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 interface TranslationFormProps {
@@ -117,7 +117,7 @@ const TranslationForm = ({
               </div>
             ) : (
               <div className="flex items-center space-x-2">
-                <Translate className="h-4 w-4" />
+                <Languages className="h-4 w-4" />
                 <span>Translate</span>
                 <ArrowRight className="h-4 w-4" />
               </div>
